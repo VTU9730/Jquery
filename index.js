@@ -11,7 +11,7 @@ $("input").keypress(function(event) {
   $("h1").text(event.key);
 })
 $("h1").on("mouseover",function(){
-  $("button").text("Hello!");
+  $("button").text("Bye!");
 })
 $("h1").after("<button>running</button>");
 // $("h1").before("<button>move</button>");
